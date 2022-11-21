@@ -25,7 +25,9 @@ body {
 }
 h1 {
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid rgb(65, 90, 119);
+  margin: 0;
+  padding: 0;
 }
 .flex {
   display: flex;
@@ -40,10 +42,21 @@ h1 {
   border: 5px solid rgb(34, 87, 122);
   border-radius: 8px;
 }
+
+.bookmark-question-one {
+  position: absolute;
+  top: 3px;
+  right: -41px;
+}
+.bookmark-question-two {
+  position: absolute;
+  top: 3px;
+  right: -7px;
+}
 .bookmark-question {
   position: absolute;
   top: 3px;
-  right: 0;
+  right: 2px;
 }
 .flex-question {
   position: relative;
@@ -73,4 +86,24 @@ h1 {
   bottom: 0;
   background-color: rgb(224, 225, 221);
   padding: 10px;
+}
+.profile-main {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  border: 1px solid;
+}
+.picture {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.image {
+  border-radius: 50%;
+  height: 150px;
+}
+.name {
+  font-size: 40px;
 }
