@@ -16,7 +16,36 @@
     /* Safari, Android, iOS */
       url("../fonts/autour-one-v24-latin-regular.svg#AutourOne") format("svg"); /* Legacy iOS */
 }
-
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .question {
+  padding: 40px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  border: 5px solid red;
+  border-radius: 10px;
+}
+.flex-question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: ;
+}
+.hash {
+  padding-left: 10px;
   border: 1px solid red;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  bottom: 0;
+  background-color: black;
+  padding: 10px;
 }
