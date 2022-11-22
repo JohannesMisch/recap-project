@@ -1,6 +1,3 @@
-/* * {
-  font-family: "Autour One";
-} */
 /* autour-one-regular - latin */
 @font-face {
   font-family: "Autour One";
@@ -27,7 +24,7 @@ body {
 h1 {
   text-align: center;
   border: 2px solid rgb(65, 90, 119);
-  margin: 0;
+  margin-bottom: 20px;
   padding: 0;
 }
 .flex {
