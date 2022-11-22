@@ -1,14 +1,11 @@
-* {
-  font-family: "Autour One";
-}
 /* autour-one-regular - latin */
 @font-face {
   font-family: "Autour One";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/autour-one-v24-latin-regular.eot"); /* IE9 Compat Modes */
-  src: local("Autour One"),
-    url("../fonts/autour-one-v24-latin-regular.eot?#iefix")
+  src: url("../fonts/autour-one-v24-latin-regular.eot"),
+    /* IE9 Compat Modes */
+      url("../fonts/autour-one-v24-latin-regular.eot?#iefix")
       format("embedded-opentype"),
     /* IE6-IE8 */ url("../fonts/autour-one-v24-latin-regular.woff2")
       format("woff2"),
@@ -20,13 +17,14 @@
       url("../fonts/autour-one-v24-latin-regular.svg#AutourOne") format("svg"); /* Legacy iOS */
 }
 body {
+  font-family: "Autour One";
   background-color: rgb(224, 225, 221);
   color: rgb(13, 27, 42);
 }
 h1 {
   text-align: center;
   border: 2px solid rgb(65, 90, 119);
-  margin: 0;
+  margin-bottom: 20px;
   padding: 0;
 }
 .flex {
@@ -35,6 +33,7 @@ h1 {
   gap: 20px;
 }
 .question {
+  position: relative;
   align-items: center;
   justify-content: space-between;
   display: flex;
@@ -42,24 +41,19 @@ h1 {
   border: 5px solid rgb(34, 87, 122);
   border-radius: 8px;
 }
+.question-text {
+  text-align: center;
+}
 
-.bookmark-question-one {
-  position: absolute;
-  top: 3px;
-  right: -41px;
-}
-.bookmark-question-two {
-  position: absolute;
-  top: 3px;
-  right: -7px;
-}
 .bookmark-question {
   position: absolute;
   top: 3px;
   right: 2px;
 }
+.material-symbols-outlined {
+  border-color: transparent;
+}
 .flex-question {
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,6 +64,9 @@ h1 {
   border: 2px solid rgb(34, 87, 122);
   padding: 2px;
   text-decoration: none;
+}
+button {
+  background-color: rgb(224, 225, 221);
 }
 .hash {
   padding-left: 10px;
