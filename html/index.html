@@ -14,70 +14,53 @@
   <body>
     <h1>Quiz App</h1>
     <main class="flex">
-      <section class="question">
-        <div class="flex-question">
-          <div class="bookmark-question">
-            <button class="material-symbols-outlined">grade</button>
-          </div>
-          <p class="question-text">What does CSS stand for?</p>
-          <!--Cascading Style Sheet-->
-          <button type="button">Show Answer</button>
-          <p class="hash">#CSS Basic</p>
-          <!-- liste-->
-        </div>
+      <section class="Quizcard">
+          <button class="material-symbols-outlined Quizcard_bookmark">grade</button>
+        <p class="Quizcard_question-text">What does CSS stand for?</p>
+        <!--Cascading Style Sheet-->
+        <button class="Quizcard_button" type="button">Show Answer</button>
+        <p class="Quizcard_tag">#CSS Basic</p>
       </section>
-      <section class="question">
-        <div class="flex-question">
-          <!-- kann gelöscht werden-->
-          <div class="bookmark-question">
-            <button class="material-symbols-outlined">grade</button>
-          </div>
-          <p class="question-text">What is the correct way to write css?</p>
-          <!--'p{color: green;}'-->
-          <button type="button">Show Answer</button>
-          <p class="hash">#CSS Basic</p>
-        </div>
+      <section class="Quizcard">
+          <button class="material-symbols-outlined Quizcard_bookmark">grade</button>
+        <p class="Quizcard_question-text">
+          What is the correct way to write css?
+        </p>
+        <!--'p{color: green;}'-->
+        <button class="Quizcard_button" type="button">Show Answer</button>
+        <p class="Quizcard_tag">#CSS Basic</p>
       </section>
-      <section class="question">
-        <div class="flex-question">
-          <div class="bookmark-question">
-            <button class="material-symbols-outlined">grade</button>
-          </div>
-          <p class="question-text">
-            Which are the two most common default 'display' values of HTML
-            elements?
-          </p>
-          <!--'block' adn 'inline'-->
-          <button type="button">Show Answer</button>
-          <p class="hash">#CSS Basic</p>
-        </div>
+      <section class="Quizcard">
+          <button class="material-symbols-outlined Quizcard_bookmark">grade</button>
+        <p class="Quizcard_question-text">
+          Which are the two most common default 'display' values of HTML
+          elements?
+        </p>
+        <!--'block' and 'inline'-->
+        <button class="Quizcard_button" type="button">Show Answer</button>
+        <p class="Quizcard_tag">#CSS Basic</p>
       </section>
-      <section class="question">
-        <div class="flex-question">
-          <div class="bookmark-question">
-            <button class="material-symbols-outlined">grade</button>
-          </div>
-          <p class="question-text">
-            How would you create an immage tag for fish.jpg (with no alt text)?
-          </p>
-          <!--'![](fish.jpg)'-->
-          <button type="button">Show Answer</button>
-          <p class="hash">#Markdown</p>
-        </div>
+      <section class="Quizcard">
+          <button class="material-symbols-outlined Quizcard_bookmark">grade</button>
+        <p class="Quizcard_question-text">
+          How would you create an immage tag for fish.jpg (with no alt text)?
+        </p>
+        <!--'![](fish.jpg)'-->
+        <button class="Quizcard_button" type="button">Show Answer</button>
+        <p class="Quizcard_tag">#Markdown</p>
       </section>
     </main>
-    <nav class="nav">
-      <a class="nav-quiz" href="#"
-        ><span class="material-symbols-outlined"> home </span></a
-      >
-      <a class="nav-bookmarks" href="../html/Bookmarks.html"
-        ><span class="material-symbols-outlined"> grade </span></a
-      >
-      <a class="nav-profile" href="../html/profile.html"
-        ><span class="material-symbols-outlined">
+    <nav class="nav-bar">
+      <a class="nav-bar_Home-button" href="#"></a>
+        <span class="material-symbols-outlined"> home </span>
+      </a>
+      <a class="nav-bar_bookmarks-button" href="../html/Bookmarks.html"> <span class="material-symbols-outlined"> grade </span>
+      </a>
+      <a class="nav-bar_profile-button" href="../html/profile.html"
+        > <span class="material-symbols-outlined">
           sentiment_very_satisfied
-        </span></a
-      >
+        </span>
+      </a>
       <!--<a class="nav-profile" href="#"
         ><img
           src="../images/collections_bookmark_FILL0_wght400_GRAD0_opsz48.svg"
