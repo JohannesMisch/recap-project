@@ -1,106 +1,22 @@
-/* autour-one-regular - latin */
-@font-face {
-  font-family: "Autour One";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/autour-one-v24-latin-regular.eot"),
-    /* IE9 Compat Modes */
-      url("../fonts/autour-one-v24-latin-regular.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/autour-one-v24-latin-regular.woff2")
-      format("woff2"),
-    /* Super Modern Browsers */
-      url("../fonts/autour-one-v24-latin-regular.woff") format("woff"),
-    /* Modern Browsers */ url("../fonts/autour-one-v24-latin-regular.ttf")
-      format("truetype"),
-    /* Safari, Android, iOS */
-      url("../fonts/autour-one-v24-latin-regular.svg#AutourOne") format("svg"); /* Legacy iOS */
-}
-body {
-  font-family: "Autour One";
-  background-color: rgb(224, 225, 221);
-  color: rgb(13, 27, 42);
-}
-h1 {
-  text-align: center;
-  border: 2px solid rgb(65, 90, 119);
-  margin-bottom: 20px;
-  padding: 0;
-}
-.flex {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.question {
-  position: relative;
-  align-items: center;
-  justify-content: space-between;
-  display: flex;
-  flex-direction: column;
-  border: 5px solid rgb(34, 87, 122);
-  border-radius: 8px;
-}
-.question-text {
-  text-align: center;
-}
+@import url(./global.css);
+@import url(./fonts.css);
+@import url(./quizcard.css);
+@import url(./button.css);
+@import url(./nav_bar.css);
 
-.bookmark-question {
-  position: absolute;
-  top: 3px;
-  right: 2px;
-}
-.material-symbols-outlined {
-  border-color: transparent;
-}
-.flex-question {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  padding: 25px 20px 0 20px;
-}
-.answer {
+/* .answer {
   border: 2px solid rgb(34, 87, 122);
   padding: 2px;
   text-decoration: none;
-}
-button {
-  background-color: rgb(224, 225, 221);
-}
-.hash {
-  padding-left: 10px;
-  border: 1px solid rgb(65, 90, 119);
-  border-radius: 5px;
-  padding: 5px;
-  background-color: rgb(119, 141, 169);
-}
-.nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  position: sticky;
-  bottom: 0;
-  background-color: rgb(224, 225, 221);
-  padding: 10px;
-}
-.profile-main {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  flex-direction: column;
-  border: 1px solid;
-}
-.picture {
+} */
+
+/* .picture {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-}
-.image {
+} */
+/* .image {
   border-radius: 50%;
   height: 150px;
-}
-.name {
-  font-size: 40px;
-}
+} */
