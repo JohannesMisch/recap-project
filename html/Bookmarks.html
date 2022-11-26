@@ -14,43 +14,45 @@
   <body>
     <h1>Quiz App</h1>
     <main class="flex">
-      <section class="question">
-        <div class="flex-question">
-          <div class="bookmark-question">
-            <button class="material-symbols-outlined">grade</button>
-          </div>
-          <p>What is the correct way to write css?</p>
-          <!--'p{color: green;}'-->
-          <button type="button">Show Answer</button>
-          <p class="hash">#CSS Basic</p>
-        </div>
+      <section class="Quizcard">
+        <button class="material-symbols-outlined Quizcard__bookmark">
+          grade
+        </button>
+
+        <p class="Quizcard__question--text">
+          What is the correct way to write css?
+        </p>
+        <!--'p{color: green;}'-->
+        <button class="Quizcard__button" type="button">Show Answer</button>
+        <p class="Quizcard__tag">#CSS Basic</p>
       </section>
-      <section class="question">
-        <div class="flex-question">
-          <div class="bookmark-question">
-            <button class="material-symbols-outlined">grade</button>
-          </div>
-          <p>
-            How would you create an immage tag for fish.jpg (with no alt text)?
-          </p>
-          <!--'![](fish.jpg)'-->
-          <button type="button">Show Answer</button>
-          <p class="hash">#Markdown</p>
-        </div>
+      <section class="Quizcard">
+        <button
+          class="Quizcard__button"
+          class="material-symbols-outlined Quizcard__bookmark"
+        >
+          grade
+        </button>
+        <p class="Quizcard__question--text">
+          How would you create an immage tag for fish.jpg (with no alt text)?
+        </p>
+        <!--'![](fish.jpg)'-->
+        <button class="Quizcard__button" type="button">Show Answer</button>
+        <p class="Quizcard__tag">#Markdown</p>
       </section>
     </main>
-    <nav class="nav">
-      <a class="nav-quiz" href="../html/index.html"
-        ><span class="material-symbols-outlined"> home </span></a
-      >
-      <a class="nav-bookmarks" href="#"
-        ><span class="material-symbols-outlined"> grade </span></a
-      >
-      <a class="nav-profile" href="../html/profile.html"
-        ><span class="material-symbols-outlined">
+    <nav class="nav--bar">
+      <a class="nav--bar__Home--button" href="../html/index.html">
+        <span class="material-symbols-outlined"> home </span>
+      </a>
+      <a class="nav--bar__bookmarks--button" href="#">
+        <span class="material-symbols-outlined"> grade </span>
+      </a>
+      <a class="nav--bar__profile--button" href="../html/profile.html">
+        <span class="material-symbols-outlined">
           sentiment_very_satisfied
-        </span></a
-      >
+        </span>
+      </a>
     </nav>
   </body>
 </html>

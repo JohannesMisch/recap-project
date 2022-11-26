@@ -1,0 +1,26 @@
+.Quizcard {
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid rgb(34, 87, 122);
+  border-radius: 8px;
+  padding: 18px 30px;
+}
+
+.Quizcard__question--text {
+  text-align: center;
+}
+
+.Quizcard__tag {
+  padding-left: 10px;
+  border: 1px solid rgb(65, 90, 119);
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(119, 141, 169);
+}
+
+.material-symbols-outlined {
+  border-color: transparent;
+}

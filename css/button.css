@@ -1,0 +1,14 @@
+button {
+  background-color: rgb(224, 225, 221);
+}
+
+.Quizcard__bookmark {
+  font-size: 32px;
+  position: absolute;
+  top: 3px;
+  right: 2px;
+}
+
+/* .Quizcard__button {
+
+  } */
